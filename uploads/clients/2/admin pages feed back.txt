@@ -1,0 +1,144 @@
+====================
+Some changes.
+====================
+* Please change the colors of the app to be more suitable with the site colors.
+This is the website:
+https://daajamsteel.logic-solutions.co/
+* Please put the logo in login page (you can get the logo from the website).
+* Please delete facebook and google+ login, and keeb user name and password login only.
+* In all data grids (all lists), please show loader before loading data.
+
+=========================
+Pages did not implementd:
+=========================
+Change password page (From the account):
+* Password.
+* Password confirm.
+
+Change password page (Outside the account):
+* Password.
+* Password confirm.
+
+Reset password page (Outside the account):
+* Email.
+
+====================
+Lists fiels:
+====================
+Users list fields:
+* First Name
+* Last Name.
+* Email.
+* Phone number
+* Photo.
+* Password. (in creation only).
+* Password confirm. (in creation only).
+* IsActive (bool).
+
+Videos list fields:
+* Title
+* Summary
+* YoutubeVideoId (text)
+* Language (Dropdownlist)(Arabic-English)
+* PublishDate (today is default)
+* OrderBy (Number)
+
+News list fields:
+* Titled
+* SummaryD
+* Body
+* Images list (multible images), and make D only one image as a main image.
+* Language (Dropdownlist)(Arabic-English)D
+* PublishDate (today is default)D
+* OrderBy (Number)D
+
+Employees list fields:
+*D NameAr
+*D NameEn
+*D Employee photo (photo viewing and the ability to change the photo)
+*D TitleAr
+*D TitleEn
+*D DescriptionAr
+*D DescriptionEn
+*D CvAr
+*D CvEn
+*D Type (Dropdownlist)(Board of Directors - Executive Management)
+*D OrderBy (Number)
+
+D Awards and Honors list fields:
+* TitleAr
+* TitleEn
+* Award photo (photo viewing and the ability to change the photo)
+* DescriptionAr
+* DescriptionEn
+* MoreDetailsAr
+* MoreDetailsEn
+* OrderBy (Number)
+
+Reports list fields:
+* TitleAr
+* TitleEn
+* The Attachment (PDF file) (with Add and delete feature)
+* Type (Dropdownlist)(Financial Statements - periodic reports)
+* OrderBy (Number)
+
+============================
+Update only pages fields (Update one entity only (not list))
+============================
+
+D Settings page fields (Edit only) (only one entity - no list):
+* Recruitment email.
+* Contact us email
+* Live chat email.
+
+Home page fields (Edit only) (only one entity - no list):
+* English about company (text area).D
+* Arabic about company (text area). D
+* Arabic Productivity Feature (text area).D
+* English Productivity Feature (text area).D
+* Arabic Efficiency Feature (text area). D
+* English Efficiency Feature (text area). D
+* Arabic Readiness Feature (text area).d
+* English Readiness Feature (text area).d
+* Arabic Quality Feature (text area).d
+* English Quality Feature (text area).d
+* Arabic Our values description (text area). d
+* English Our values description (text area). d
+* Arabic Creativity value description (text area).d
+* English Creativity value description (text area).d
+* Arabic Sharing value description (text area).d
+* English Sharing value description (text area).d
+* Arabic Motivation value description (text area).d
+* English Motivation value description (text area).d
+* Arabic Achievement value description (text area).d
+* English Achievement value description (text area).d
+
+About company page fields (only one entity - no list):
+* Arabic Chairman's word (text area).d
+* English Chairman's word (text area).d
+* Chairman's photo (photo viewing and the ability to change the photo)
+* Arabic about company (text area).d
+* English about company (text area).d
+* Arabic Vision (text area).d
+* English Vision (text area).d
+* Arabic mission (text area).d
+* English mission (text area).d
+* Phone number (text)d
+* Arabic Address (text)d
+* English Address (text)d 
+* Arabic times of work (text)d
+* English times of work (text)d 
+* Arabic vacation days (text)d
+* English vacation days (text)d
+
+d Products(Steel) page fields (only one entity - no list):
+* Steel photo #1 (photo viewing and the ability to change the photo)
+* Steel photo #2 (photo viewing and the ability to change the photo)
+* Arabic description (text area).
+* English description (text area).
+
+d Products(Iron block) page fields (only one entity - no list):
+* Iron block photo #1 (photo viewing and the ability to change the photo)
+* Iron block photo #2 (photo viewing and the ability to change the photo)
+* Arabic description (text area).
+* English description (text area).
